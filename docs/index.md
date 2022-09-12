@@ -65,4 +65,9 @@ LinkedIn:  <https://www.linkedin.com/in/mihir-tripathi>
 Github: <https://github.com/mihirtripathi97>  
 Medium: <https://medium.com/@mihirtripathi97>
 
+| Pull Request                                                                  | Status   | Description                                                                                                                                          |
+|-------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Bayesian Excess Variance (Bexvar) in Stingray – GsoC’22 project](https://github.com/StingraySoftware/stingray/pull/664) | ![badge](https://shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor)    | The core of the project, includes implementation of bexvar() method,<br>along with documentation and tests                                           |
+| [Add find_bexvar() method in Lightcurve class and its relevant tests – GsoC’22](https://github.com/StingraySoftware/stingray/pull/669) | ![badge](https://shields.io/badge/PR-Approved-success?style=for-the-badge&logo=appveyor)     | Contains work done to add bexvar() method in Stingray’s Lightcurve class<br>and addition of three new optional parameters in Lightcurve class        |
+| [Bexvar tutorial notebook](https://github.com/StingraySoftware/notebooks/pull/58)                                                      | ![badge](https://shields.io/badge/PR-In_Review-lightgreen?style=for-the-badge&logo=appveyor) | A jupyter notebook showcasing the usage of bexvar method with examples,<br>it also includes a section summarizing theoretical explanation of bexvar. |
 
