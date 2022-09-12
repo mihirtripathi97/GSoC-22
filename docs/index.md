@@ -25,7 +25,8 @@ The method has been tested with multiple functional and unit tests to ensure its
 In addition to the proposed deliverables, an effort to include `bexvar()` method as a method to Stingray’s Lightcurve class is in progress. This work would also include preliminary addition of new optional parameters (`frac_exp`, `bg_counts` and `bg_ratio`) into Stingray’s Lightcurve class. This will enable users to use facilities provided by the Lightcurve class on data containing these attributes.  
 
 ### Repositories:  
-https://github.com/StingraySoftware/stingray  
+https://github.com/StingraySoftware/stingray   
+ 
 
 https://github.com/StingraySoftware/notebooks  
 
