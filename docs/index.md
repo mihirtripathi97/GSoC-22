@@ -26,11 +26,11 @@ The modularized structure and support for default values of optional input param
 
 The method has been tested with multiple functional and unit tests to ensure its reliability.  A detailed documentation along with tutorials have been created.  
 
-In addition to the proposed deliverables, an effort to include `bexvar()` method as a method to Stingray’s Lightcurve class is in progress.
-This work would also includes preliminary addition of new optional parameters (`frac_exp`, `bg_counts` and `bg_ratio`) into Stingray’s Lightcurve class.
-This will enable users to use facilities provided by the Lightcurve class on data containing these attributes. 
-Along with these the work will include support for non-uniform sampling in Stingray Lightcurve.
-This will facilitate users to create Stingray Lightcurve object with non-uniform time bins and use Lightcurve class methods to analyse the data.
+In addition to the proposed deliverables, an effort to include `bexvar()` method as a method to Stingray’s `Lightcurve` class is in progress.
+This work would also includes preliminary addition of new optional parameters (`frac_exp`, `bg_counts` and `bg_ratio`) into Stingray’s `Lightcurve` class.
+This will enable users to use facilities provided by the `Lightcurve` class on data containing these attributes. 
+Along with these the work will include support for non-uniform sampling in Stingray `Lightcurve`.
+This will facilitate users to create Stingray `Lightcurve` object with non-uniform time bins and use `Lightcurve` class methods to analyse the data.
 
 ### Repositories:  
 <https://github.com/StingraySoftware/stingray>   
@@ -42,17 +42,19 @@ This will facilitate users to create Stingray Lightcurve object with non-uniform
 | Pull Request                                                                  | Status   | Description                                                                                                                                          |
 |-------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Bayesian Excess Variance (Bexvar) in Stingray – GsoC’22 project](https://github.com/StingraySoftware/stingray/pull/664) | ![badge](https://shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor)    | The core of the project, includes implementation of bexvar() method,<br>along with documentation and tests                                           |
-| [Add find_bexvar() method in Lightcurve class and its relevant tests – GsoC’22](https://github.com/StingraySoftware/stingray/pull/669) | ![badge](https://shields.io/badge/PR-Approved-success?style=for-the-badge&logo=appveyor)     | Contains work done to add bexvar() method in Stingray’s Lightcurve class<br>and addition of three new optional parameters in Lightcurve class        |
+| [Add find_bexvar() method in Lightcurve class and its relevant tests – GsoC’22](https://github.com/StingraySoftware/stingray/pull/669) | ![badge](https://shields.io/badge/PR-Approved-success?style=for-the-badge&logo=appveyor)     | Contains work done to add `bexvar()` method in Stingray’s `Lightcurve` class, <br> addition of three new optional parameters in `Lightcurve` class and <br> work done to facilitate `Lightcurve` creation with non-uniform time sampling       |
 | [Bexvar tutorial notebook](https://github.com/StingraySoftware/notebooks/pull/58)                                                      | ![badge](https://shields.io/badge/PR-In_Review-lightgreen?style=for-the-badge&logo=appveyor) | A jupyter notebook showcasing the usage of bexvar method with examples,<br>it also includes a section summarizing theoretical explanation of bexvar. |
 
 
 ### Beyond GSoC:
 
-At the time of this writing, support for new parameters added in Lightcurve class is being worked upon.  
+At the time of this writing, support for new parameters added in `Lightcurve` class is being worked upon.  
 While the bexvar method is successfully implemented in Stingray, the logical next steps would be to work on improvement of its speed and investigate on possible vectorization of some of the internal functions.
 
 ### Acknowledgement:
 I would like to thank my mentors, [Matteo Bachetti](https://github.com/matteobachetti) and [Daniela Huppenkothen](https://github.com/dhuppenkothen) for their continuous support during the entire project. It would not have been possible for me to complete this project without their incredible support and guidance. 
+I am thankful for their careful PR reviews, for insightful suggestions on various aspects of project, for detailed explanations to my quarries and for providing me an overall positive and motivating environment for the project. I am very fortunate to have them as mentors for this project.
+ 
 
 ### Blogs:
 List of blogs created during the scope of these project.  
