@@ -10,10 +10,15 @@ The [Stingray](https://stingray.science/) project is a sub-organization of [Open
 
 ### Proposed Deliverables:
 | Deliverables                                                     | Status  |  
+
 | -----------------------------------------------------------------|---------|  
+
 | Implementation of the Bexvar method into Stingray infrastructure | Achived |  
+
 | Inclusion of tests to ensure code’s performance and stability    | Achived |  
+
 | Complete documentation and tutorials for the method              | Achived |   
+
 
 ### Project Summary:
 The Bexvar method have been implemented along with tests and documentation into the Stingray repository.  
@@ -25,17 +30,20 @@ The method has been tested with multiple functional and unit tests to ensure its
 In addition to the proposed deliverables, an effort to include `bexvar()` method as a method to Stingray’s Lightcurve class is in progress. This work would also include preliminary addition of new optional parameters (`frac_exp`, `bg_counts` and `bg_ratio`) into Stingray’s Lightcurve class. This will enable users to use facilities provided by the Lightcurve class on data containing these attributes.  
 
 ### Repositories:  
-https://github.com/StingraySoftware/stingray   
- 
+<https://github.com/StingraySoftware/stingray>   
 
-https://github.com/StingraySoftware/notebooks  
+<https://github.com/StingraySoftware/notebooks>  
 
 ### Pull Requests:
 | Pull Request                                                                                                                            | Status     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------| -----------| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  
+
 | [Bayesian Excess Variance (Bexvar) in Stingray – GsoC’22 project](https://github.com/StingraySoftware/stingray/pull/664)                | ![badge](https://shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor)   | The core of the project, includes implementation of bexvar() method, along with documentation and tests        |  
+
 | [Add find_bexvar() method in Lightcurve class and its relevant tests – GsoC’22](https://github.com/StingraySoftware/stingray/pull/669)  | <img width=200/>![badge](https://shields.io/badge/PR-Approved-success?style=for-the-badge&logo=appveyor)   | Contains work done to add bexvar() method in Stingray’s Lightcurve class and addition of three new optional parameters in Lightcurve class|  
+
 | [Bexvar tutorial notebook](https://github.com/StingraySoftware/notebooks/pull/58)                                                       |  ![badge](https://shields.io/badge/PR-In_Review-lightgreen?style=for-the-badge&logo=appveyor)  | A jupyter notebook showcasing the usage of bexvar method with examples, it also includes a section summarizing theoretical explanation of bexvar.|  
+
 
 ### Beyond GSoC:
 
@@ -56,4 +64,5 @@ List of blogs created during the scope of these project.
 LinkedIn:  <https://www.linkedin.com/in/mihir-tripathi>  
 Github: <https://github.com/mihirtripathi97>  
 Medium: <https://medium.com/@mihirtripathi97>
+
 
