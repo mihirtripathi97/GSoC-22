@@ -62,6 +62,7 @@ List of blogs created during the scope of these project.
 •	[GSoC @ Stingray: Beginning of the journey. blog #1](https://medium.com/@mihirtripathi97/gsoc-stingray-beginning-of-the-journey-blog-1-7ed5a47bec65)  
 •	[GSoC @ Stingray: Diving into coding period. blog #2](https://medium.com/@mihirtripathi97/gsoc-stingray-diving-into-coding-period-blog-2-f24a03c00014)  
 •	[GSoC @ Stingray: Testing Testing Testing … #blog 3](https://medium.com/@mihirtripathi97/gsoc-stingray-testing-testing-testing-9d1572ac43ef)  
+•	[GSoC @ Stingray: Final dash! blog#4](https://medium.com/@mihirtripathi97/gsoc-stingray-final-dash-blog-4-1279d3b337e7)  
 
 ### Profiles:
 LinkedIn:  <https://www.linkedin.com/in/mihir-tripathi>  
